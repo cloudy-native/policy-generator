@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "generate": "ts-node generate.ts"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.12",
+    "iam-floyd": "^0.301.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
